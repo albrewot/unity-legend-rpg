@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Breakable
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,15 @@ TagManager:
     locked: 0
   - name: Collision
     uniqueID: 1977960271
+    locked: 0
+  - name: Portal
+    uniqueID: 2425923497
+    locked: 0
+  - name: Breakable
+    uniqueID: 1827242107
+    locked: 0
+  - name: NPC
+    uniqueID: 414213709
     locked: 0
   - name: Player
     uniqueID: 1023200995
