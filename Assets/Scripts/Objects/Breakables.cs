@@ -23,10 +23,6 @@ public class Breakables : MonoBehaviour
         StartCoroutine(BreakCo());
     }
 
-    private void RemoveGameObject() {
-        Destroy(gameObject);
-    }
-
     private IEnumerator BreakCo() {
         yield return new WaitForSeconds(0.41f);
         Destroy(gameObject);

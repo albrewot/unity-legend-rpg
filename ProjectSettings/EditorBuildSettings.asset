@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Game.unity
     guid: 114235309160bd24c81d393b97e1fa8e
   - enabled: 1
-    path: Assets/Scenes/Test Stage.unity
-    guid: 368e3f2423dbd714cbcfe32529f6bd58
-  - enabled: 1
     path: Assets/Scenes/Test Stage 2.unity
     guid: 71896d3013f125540a3f6f29932acf97
+  - enabled: 1
+    path: Assets/Scenes/Test Stage.unity
+    guid: 368e3f2423dbd714cbcfe32529f6bd58
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 4a165a7f9d410e64cb974e60bc7f3567

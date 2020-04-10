@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerHit : MonoBehaviour
 {
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,11 @@ public class PlayerHit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Breakable")) {
             collision.GetComponent<Breakables>().DestroyBreakable();
+        }
+
+        if(collision.CompareTag("Enemy")) {
+            Rigidbody2D enemyRb = collision.GetComponent<Rigidbody2D>();
+
         }
     }
 }
